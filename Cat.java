@@ -1,7 +1,15 @@
 public class Cat{
 
-    public Cat(){
+    public Cat(String name, int age){
 
-        System.out.println("Je suis un chat : " + this);
+        this.m_Name = name;
+        this.m_Age = age;
+
+        System.out.println("Ce chat ce nomme " + this.m_Name + " et il a  " + this.m_Age +" ans");
+
     }
+
+    private String m_Name;
+    private int m_Age;
+
 }

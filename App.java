@@ -6,10 +6,10 @@ public class App {
 
     public static void main(String[] args) {
 
-        Cat c1 = new Cat("Ponyo" , 4);
-        Cat c2 = new Cat("Coconuts" , 2);
-    
+        SoftwareRegistration sr = new SoftwareRegistration(2023);
+
+        sr.setExpirationYear(2050);
+        System.out.println(sr.getExpirationYear());
 
     }
-
-}
+} 
